@@ -9,5 +9,6 @@ The Raw_data directory contains data from one scan measured at pump fluence of 1
 4. WX15_Y16_Scan041_OL/rawdata:- contains detector images with just the pump laser on the samples.
 
 ## Instructions for running 2D fits using Code_for_2D_fitting.ipynb
-One can run the 2D fitting using the Code_for_2D_fitting.ipynb file after installing the following python libraries:-
-- numpy, matplotlib, scipy, labellines, pandas
+One can run the 2D fitting using Code_for_2D_fitting.ipynb file after installing the following python libraries:-
+- numpy, matplotlib, pandas, scipy, h5py, h5glance, imageio, pillow, labellines.
+The setup parameters for the 2D fit are defined in cells labeled "File path and analysis options". Uncomment the lines in the last cell to save the fit parameter results from 2D fitting as .npy files.
